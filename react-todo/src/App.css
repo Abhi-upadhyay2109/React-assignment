@@ -1,0 +1,60 @@
+#root {
+  width: 50%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* border: 2px solid red; */
+  /* background-color: rgb(98, 101, 103); */
+  background-color: rgba(179, 187, 188, 0.751);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+  
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.child{
+  border: 2px solid rgb(120, 113, 113);
+  height: 7rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.child>input{
+  height: 2.5rem;
+  width: 90%;
+  background-color: rgb(142, 160, 177);
+  color: rgb(80, 14, 14);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.child>button{
+  width: 6rem;
+  height: 2.5em;
+  background-color: rgb(94,0,184);
+}
+
+h2{
+  background-color: rgb(94,0,184);
+  padding: 1rem;
+  width: 90%;
+  border-radius: 5px;
+}
+
+tbody>tr{
+  /* display: flex; */
+  justify-content: space-between;
+  margin-left: 8rem;
+  
+  
+}
